@@ -1,0 +1,84 @@
+﻿<Window x:Class="ACESS.DashboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Central de Informações A.C.E.S.S." Height="600" Width="950"
+        WindowStartupLocation="CenterScreen" Background="#F5F7FA">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Barra Superior -->
+        <Border Background="#0D47A1" Grid.Row="0" Padding="20,0">
+            <Grid>
+                <TextBlock Text="Central de Informações" Foreground="White" FontSize="20" FontWeight="Bold" VerticalAlignment="Center"/>
+                <Button Content="Sair" Background="#D32F2F" Width="80" HorizontalAlignment="Right" Click="BtnLogout_Click"/>
+            </Grid>
+        </Border>
+
+        <!-- Cards -->
+        <Grid Grid.Row="1" Margin="20,20,20,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Card 1 -->
+            <Border Background="White" CornerRadius="8" Margin="0,0,10,0" BorderBrush="#ccc" BorderThickness="1">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="Colaboradores Ativos" Foreground="#555" FontWeight="Bold"/>
+                    <TextBlock Text="12" Foreground="#0D47A1" FontSize="36" FontWeight="Bold"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Card 2 -->
+            <Border Grid.Column="1" Background="White" CornerRadius="8" Margin="5,0,5,0" BorderBrush="#D32F2F" BorderThickness="0,0,0,4">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="Alertas de Fadiga" Foreground="#D32F2F" FontWeight="Bold"/>
+                    <TextBlock Text="3" Foreground="#D32F2F" FontSize="36" FontWeight="Bold"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Card 3 -->
+            <Border Grid.Column="2" Background="White" CornerRadius="8" Margin="10,0,0,0" BorderBrush="#ccc" BorderThickness="1">
+                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="Adaptações Hoje" Foreground="#555" FontWeight="Bold"/>
+                    <TextBlock Text="85" Foreground="#2E7D32" FontSize="36" FontWeight="Bold"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Lista Principal -->
+        <Border Grid.Row="2" Margin="20" Background="White" CornerRadius="8" Padding="15" BorderBrush="#ccc" BorderThickness="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <DockPanel Grid.Row="0" LastChildFill="False">
+                    <TextBlock Text="Monitoramento em Tempo Real" FontSize="16" FontWeight="Bold" Foreground="#0D47A1" VerticalAlignment="Center"/>
+                    <Button Content="🧠 Analisar com IA" DockPanel.Dock="Right" Width="150" Background="#2E7D32" Click="BtnAnalise_Click"/>
+                    <Button Content="📡 Atualizar Sensores" DockPanel.Dock="Right" Width="150" Margin="0,0,10,0" Background="#555" Click="BtnSimular_Click"/>
+                </DockPanel>
+
+                <DataGrid x:Name="GridColaboradores" Grid.Row="1" Margin="0,10,0,0" 
+                          AutoGenerateColumns="False" IsReadOnly="True" 
+                          GridLinesVisibility="Horizontal" HeadersVisibility="Column"
+                          Background="White">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60"/>
+                        <DataGridTextColumn Header="Nome" Binding="{Binding Nome}" Width="200"/>
+                        <DataGridTextColumn Header="Fadiga" Binding="{Binding IndiceFadiga, StringFormat={}{0:F1}%}" Width="100"/>
+                        <DataGridTextColumn Header="Status" Binding="{Binding StatusTexto}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
+ 

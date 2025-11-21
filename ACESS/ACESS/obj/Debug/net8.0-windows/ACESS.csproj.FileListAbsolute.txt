@@ -1,0 +1,45 @@
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\App.baml
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS_MarkupCompile.cache
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.g.resources
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.AssemblyInfoInputs.cache
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.AssemblyInfo.cs
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.csproj.CoreCompileInputs.cache
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.sourcelink.json
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\bin\Debug\net8.0-windows\ACESS.exe
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\bin\Debug\net8.0-windows\ACESS.deps.json
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\bin\Debug\net8.0-windows\ACESS.runtimeconfig.json
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\bin\Debug\net8.0-windows\ACESS.dll
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\bin\Debug\net8.0-windows\ACESS.pdb
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.dll
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\refint\ACESS.dll
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.pdb
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.genruntimeconfig.cache
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\ref\ACESS.dll
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\DashboardWindow.baml
+C:\Users\isabe\OneDrive\Área de Trabalho\FIAP\C#\Carro_OO_Exercicio-CSharp\ACESS\ACESS\obj\Debug\net8.0-windows\DashboardWindow.g.cs
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\bin\Debug\net8.0-windows\ACESS.exe
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\bin\Debug\net8.0-windows\ACESS.deps.json
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\bin\Debug\net8.0-windows\ACESS.runtimeconfig.json
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\bin\Debug\net8.0-windows\ACESS.dll
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\bin\Debug\net8.0-windows\ACESS.pdb
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\DashboardWindow.baml
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\App.baml
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\DashboardWindow.g.cs
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS_MarkupCompile.cache
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.g.resources
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.AssemblyInfoInputs.cache
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.AssemblyInfo.cs
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.csproj.CoreCompileInputs.cache
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.dll
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\refint\ACESS.dll
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.pdb
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\ACESS.genruntimeconfig.cache
+C:\Users\neves\Desktop\GS\c\ACESS\ACESS\obj\Debug\net8.0-windows\ref\ACESS.dll
