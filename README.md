@@ -3,7 +3,7 @@
 
 ## 👥 Autores
 
-* **[Thais Leoncio]** - RM: 553892 
+* **Thais Leoncio** - RM: 553892 
 * **André de Sousa Neves** - RM: 553515
 
 ---
