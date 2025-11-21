@@ -1,8 +1,15 @@
 # 🖥️ A.C.E.S.S. Tutor Dashboard (WPF)
 
-**Global Solution 2025.2 - Future at Work**
+**Global Solution 2025.2 - Future at Work** 
 
 O **A.C.E.S.S. Tutor Dashboard** é uma aplicação Desktop desenvolvida em **C# (WPF)** para gestores e tutores de inclusão. Ele atua como a central de comando da plataforma A.C.E.S.S., permitindo o monitoramento em tempo real da fadiga e do desempenho de colaboradores com deficiência, utilizando Inteligência Artificial simulada para sugerir adaptações.
+
+---
+
+## 👥 Integrantes do Grupo
+
+- Nome: **André de Souza Neves** – RM: **553515**  
+- Nome: **Thaís Gonçalves Leoncio** – RM: **553892**
 
 ---
 
@@ -58,13 +65,6 @@ O projeto foi construído seguindo rigorosos princípios de **Orientação a Obj
 ### 🔐 Login de Acesso
 - **Usuário:** tutor  
 - **Senha:** 123  
-
----
-
-## 👥 Integrantes do Grupo
-
-- Nome: **André de Souza Neves** – RM: **553515**  
-- Nome: **Thaís Gonçalves Leoncio** – RM: **553892**  
 
 ---
 
