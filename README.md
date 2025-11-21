@@ -1,87 +1,71 @@
-# 📚 A.C.E.S.S. - Accessible Competency Enhancement System & Support
+🖥️ A.C.E.S.S. Tutor Dashboard (WPF)
+
+Global Solution 2025.2 - Future at Work
+
+O A.C.E.S.S. Tutor Dashboard é uma aplicação Desktop desenvolvida em C# (WPF) para gestores e tutores de inclusão. Ele atua como a central de comando da plataforma A.C.E.S.S., permitindo o monitoramento em tempo real da fadiga e do desempenho de colaboradores com deficiência, utilizando Inteligência Artificial simulada para sugerir adaptações.
+
+🎯 Objetivo e Propósito Social
+
+Demonstrar como a tecnologia pode tornar o trabalho mais inclusivo e sustentável. O sistema permite que um tutor humano acompanhe múltiplos colaboradores PCDs, recebendo alertas de fadiga e sugestões de adaptação (ex: ativar comando de voz, aumentar contraste) baseadas em dados, garantindo a segurança e a autonomia do trabalhador.
+
+⚙️ Arquitetura e POO (Pontos Chave)
+
+O projeto foi construído seguindo rigorosos princípios de Orientação a Objetos:
+
+Herança:
+
+Classe Base Abstrata: Colaborador (Define propriedades comuns como Nome, ID e Fadiga).
+
+Classes Derivadas: ColaboradorMotor e ColaboradorVisual (Herdam da base e adicionam propriedades específicas).
+
+Polimorfismo:
+
+O método abstrato CalcularRecomendacaoIA() é implementado de forma diferente em cada classe filha.
+
+O sistema trata todos como Colaborador, mas a execução da IA varia dinamicamente conforme o tipo de deficiência (Motor ou Visual) em tempo de execução.
+
+🚀 Funcionalidades
+
+Login Seguro: Autenticação de tutores.
+
+Monitoramento em Tempo Real: DataGrid interativo exibindo status da equipe.
+
+Simulação IoT: Botão que simula a recepção de dados de telemetria (níveis de fadiga) de sensores externos.
+
+Análise de IA: Algoritmo que processa os dados e sugere intervenções de acessibilidade específicas.
+
+🛠 Tecnologias Utilizadas
+
+Linguagem: C# (.NET 6.0 / .NET Framework).
+
+Interface: WPF (Windows Presentation Foundation) com XAML.
+
+Design Pattern: Code Behind com separação de Models.
+
+IDE: Visual Studio 2022.
+
+📦 Como Executar
+
+Abra o arquivo AcessDashboard.sln no Visual Studio.
+
+Certifique-se de que as cargas de trabalho de "Desenvolvimento para desktop com .NET" estão instaladas.
+
+Compile a solução (Build > Build Solution).
+
+Clique em Iniciar (Start).
+
+Login de Acesso:
+
+Usuário: tutor
+
+Senha: 123
+
+👥 Integrantes do Grupo
+
+Nome: André de Sousa Neves - RM: 553515
+
+Nome: Thais Gonçalves Leoncio - RM: 553892
 
 
-## 👥 Autores
 
-* **Thais Leoncio** - RM: 553892 
-* **André de Sousa Neves** - RM: 553515
-
----
-
-## 👨‍🏫 Módulo: Visão do Tutor (Backend C#)
-
-![.NET Badge](https://img.shields.io/badge/.NET-8.0-purple)
-![C# Badge](https://img.shields.io/badge/Language-C%23-green)
-![Status Badge](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
-
-> "Empoderando tutores com dados acessíveis para potencializar o aprendizado inclusivo."
-
----
-
-## 📋 Sobre o Projeto
-
-O **A.C.E.S.S.** é uma solução integrada focada em acessibilidade e aprimoramento de competências. Este repositório contém o **Backend (API)** desenvolvido em C#, responsável pela **Visão do Tutor**.
-
-Esta aplicação processa os dados coletados via **Mobile** (interação do aluno) e **IoT** (ambiente físico), centralizando as informações para que o tutor possa:
-1. Monitorar o progresso dos alunos em tempo real.
-2. Receber alertas de acessibilidade e adaptação ambiental.
-3. Gerenciar trilhas de aprendizado personalizadas.
-
----
-
-## 🚀 Funcionalidades Principais (Visão do Tutor)
-
-Este serviço fornece endpoints para:
-
-* **📊 Dashboard Analítico:** Consolidação de dados de desempenhoindividuais.
-* **🔔 Gestão de Alertas:** Recebimento de notificações críticas vindas dos sensores IoT (ex: ruído excessivo, temperatura inadequada para o aluno).
-* **👤 Perfil do Aluno:** CRUD completo dos alunos e suas necessidades específicas de acessibilidade.
-* **📈 Relatórios de Competências:** Análise de gaps de competência baseada nos dados de uso do app mobile.
-* **🤖 Integração IA (Opcional):** Sugestões de conteúdo baseadas no padrão de aprendizado (Generative AI).
-
----
-
-## ⚙️ Como Executar o Projeto
-
-### Pré-requisitos
-* [.NET 8.0 SDK](https://dotnet.microsoft.com/download) instalado.
-* IDE (Visual Studio 2022 ou VS Code).
-* Configuração da Connection String no `appsettings.json`.
-
-### Passo a Passo
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [INSIRA SEU LINK DO GITHUB AQUI]
-    ```
-
-2.  **Acesse a pasta do projeto:**
-    ```bash
-    cd Acess.Tutor.API
-    ```
-
-3.  **Restaure as dependências:**
-    ```bash
-    dotnet restore
-    ```
-
-4.  **Configure o Banco de Dados:**
-    * Verifique a string de conexão no arquivo `appsettings.json`.
-    * Execute as migrations (se estiver usando EF Core):
-    ```bash
-    dotnet ef database update
-    ```
-
-5.  **Execute a aplicação:**
-    ```bash
-    dotnet run
-    ```
-
-6.  **Acesse a Documentação (Swagger):**
-    * Abra o navegador em: `http://localhost:5000/swagger` (ou a porta configurada).
-
----
-
-## 📝 Licença
-
-Este projeto foi desenvolvido para fins acadêmicos na **FIAP**.
+Projeto desenvolvido para a disciplina de C#.
